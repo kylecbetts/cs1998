@@ -104,3 +104,8 @@ class DatabaseDriver(object):
         for row in cursor:
             return row[4]
         return None
+
+
+# Only <=1 instance of the database driver
+# exists within the app at all times
+DatabaseDriver = singleton(DatabaseDriver)
