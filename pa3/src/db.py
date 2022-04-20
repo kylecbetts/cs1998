@@ -19,6 +19,9 @@ class DatabaseDriver(object):
     """
 
     def __init__(self):
+        """
+        Initializes the database and the tables.
+        """
         self.conn = sqlite3.connect("venmo.db", check_same_thread=False)
         self.create_users_table()
         self.create_transactions_table()

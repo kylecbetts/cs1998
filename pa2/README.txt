@@ -40,7 +40,7 @@ hashing the hash of the plain-text password. This once again increases
 originality in the final hash value, and also adds another step of un-hashing 
 that would be required to find the plain-text password. Now, if the database's 
 hashed password is found, it needs to be un-hashed from a rainbow table, to get 
-the first hash value, and that hash value would need to be unhased from the 
+the first hash value, and that hash value would need to be unhashed from the 
 rainbow table to get the original password. Both the first hash value and the 
 second hashed value would have to be in the rainbow table to get back the 
 original password. This is extremely secure. The password can even be iteratively 

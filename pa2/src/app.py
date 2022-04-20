@@ -230,6 +230,9 @@ def send_money_extra():
 
 
 def hash_password(password):
+    """
+    Takes password, adds salt to the start of it and hashes it numerous times.
+    """
     password = os.environ['PASSWORD_SALT'] + password
     password = password.encode('ascii')
     for i in range(int(os.environ['NUMBER_OF_ITERATIONS'])):
