@@ -1,7 +1,7 @@
 Name: Kyle Betts
 NetID: kcb82
 
-Challenges Attempted (Tier I/II/III):
+Challenges Attempted (Tier I/II/III): None
 Working Endpoint: GET /api/courses/
 Your Docker Hub Repository Link: https://hub.docker.com/repository/docker/kylebetts/cs1998pa5
 
